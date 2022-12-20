@@ -16,11 +16,11 @@ function App() {
     if(search !== ""){
      await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=06e34d6a513c6c7b71d788958c431d47`)
       .then((response) =>{
-        console.log(response.data)
+        // console.log(response.data)
         setWeather(response.data)
       })
       .catch((error) => {
-        console.log(error)
+        console.error(error)
       })
     }
   }

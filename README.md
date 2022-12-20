@@ -1,6 +1,7 @@
 # My Weather App 👩🏻‍💻 🌥️
 
 description:- Created weather app using React js and Open Weather API.
+Here user can know the weather report of any city in the world.
 
 # Technology Stack:
     🛠️ React JS

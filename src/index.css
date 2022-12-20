@@ -5,5 +5,5 @@
 body{
     background-color: #CAD5E2;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }

@@ -26,7 +26,7 @@ function App() {
   }
 
   return (
-    <div className=" shadow-2xl max-w-5xl mx-auto px-6 py-4 bg-[#03203C] rounded-xl">
+    <div className=" shadow-xl max-w-3xl mx-auto px-6 py-4 bg-[#03203C] rounded-xl">
       <Search searchData={search} eventHandler={changeSearch} searchWeatherHandler={fetchWeather}/>
       <Result weatherData={weather}/>
     </div>
